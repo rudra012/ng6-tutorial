@@ -30,3 +30,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Run `ng new angular6-style --style=scss` to create new project with css styling library
 Run `ng generate component my-component` to create new component 
+Run `ng g service data-service` to create new Service

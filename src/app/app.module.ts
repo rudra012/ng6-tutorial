@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MyComponentComponent } from './my-component/my-component.component';
 import { BasicStyleComponent } from './basic-style/basic-style.component';
+import { DataService } from './data.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { BasicStyleComponent } from './basic-style/basic-style.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
