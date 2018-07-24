@@ -34,3 +34,8 @@ Run `ng g service data-service` to create new Service
 
 ## Animation Integration
 Run `npm install @angular/animation@latest --save` to install animation library
+
+## Github Pages
+* Run `npm i -g angular-cli-ghpages` to install package
+
+* To deploy current repo to GitHub `ng build --prod --base-href https://rudra012.github.io/repo-name`

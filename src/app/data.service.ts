@@ -1,17 +1,18 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
 
-  constructor() { }
-
   cars = [
-    'LAMBORGHINI', 'MINI-COOPER', 'AUDI', 'BMW', "JAGUAR"
+    'LAMBORGHINI', 'MINI-COOPER', 'AUDI', 'BMW', 'JAGUAR'
   ];
 
+  constructor() {
+  }
+
   myData() {
-    return "This is my data";
+    return 'This is my data';
   }
 }
